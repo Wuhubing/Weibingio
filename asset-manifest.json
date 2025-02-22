@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Weibingio/static/css/main.e6c13ad2.css",
+    "main.js": "/Weibingio/static/js/main.6250a956.js",
+    "static/media/selfie.jpg": "/Weibingio/static/media/selfie.221d30aaf93b78661f4f.jpg",
+    "static/media/uw-logo.png": "/Weibingio/static/media/uw-logo.d8061d875a0860959652.png",
+    "index.html": "/Weibingio/index.html",
+    "main.e6c13ad2.css.map": "/Weibingio/static/css/main.e6c13ad2.css.map",
+    "main.6250a956.js.map": "/Weibingio/static/js/main.6250a956.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6250a956.js"
+  ]
+}
