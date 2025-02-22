@@ -26,6 +26,10 @@ const items: MenuProps["items"] = [
         label: <a href={baseServerAddress + "/#Education"} style={{ fontSize: '16px' }}>Education</a>,
       },
       {
+        key: "Experience",
+        label: <a href={baseServerAddress + "/#Experience"} style={{ fontSize: '16px' }}>Experience</a>,
+      },
+      {
         key: "Updates",
         label: <a href={baseServerAddress + "/#Updates"} style={{ fontSize: '16px' }}>Updates</a>,
       },

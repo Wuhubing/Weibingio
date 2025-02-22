@@ -5,6 +5,7 @@ import PublicationDisplayList from "../drafts/publications";
 import NewsDisplayList from "../drafts/updates";
 import PersonalIntrouction from "../drafts/introduction";
 import EducationList from "../drafts/education";
+import ExperienceList from "../drafts/experience";
 const { Paragraph, Text, Title } = Typography;
 const { Content } = Layout;  // 只导入需要的组件
 
@@ -42,6 +43,13 @@ const Homepage: React.FC = () => {
       </Title>
       <Divider style={{ margin: "0 0 1% 0" }} />
       <EducationList></EducationList>
+      
+      <Title level={4} id="Experience">
+        Experience
+      </Title>
+      <Divider style={{ margin: "0 0 1% 0" }} />
+      <ExperienceList></ExperienceList>
+      
       <Title level={4} id="Updates">
         Updates
       </Title>
@@ -67,10 +75,4 @@ const Homepage: React.FC = () => {
   );
 };
 
-const HomepageInDom = (
-  <div>
-    <Homepage />
-  </div>
-);
-
-export default HomepageInDom;
+export default Homepage;

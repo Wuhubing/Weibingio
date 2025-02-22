@@ -1,7 +1,6 @@
 {
-  "name": "Weibing Wang's Homepage",
+  "name": "weibing-wang-homepage",
   "version": "1.0.0",
-  "homepage": "https://motion115.github.io/weibing-wang-homepage",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -26,9 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && node deploy.js",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

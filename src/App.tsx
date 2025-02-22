@@ -2,6 +2,7 @@ import React from "react";
 import { ConfigProvider, Layout, Space, Typography } from "antd";
 import Routing from "./Routing";
 import HeaderMenu from "./modules/header";
+import PageFooter from './drafts/footer';
 const { Content, Header, Footer } = Layout;
 const { Paragraph, Text, Title } = Typography;
 
@@ -47,16 +48,7 @@ const App: React.FC = () => (
           <HeaderMenu></HeaderMenu>
         </Header>
         <Routing></Routing>
-        <Footer style={{ 
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}>
-          <Text>© 2025 Weibing Wang</Text>
-          <br />
-        </Footer>
+        <PageFooter />
       </Layout>
     </Space>
   </ConfigProvider>

@@ -18,4 +18,4 @@ const MiscInDom = (
   </div>
 );
 
-export default MiscInDom;
+export default Misc;

@@ -12,10 +12,4 @@ const Test: React.FC = () => (
   </Content>
 );
 
-const TestInDom = (
-  <div>
-    <Test />
-  </div>
-);
-
-export default TestInDom;
+export default Test;
